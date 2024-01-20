@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+var {
+    /* colors */
+    --color-yellow: #F5D061;
+    --color-red: #CF4647;
+    --color-white: #F8F6F6;
+    --color-dark: #2A363B;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    text-decoration: none;
+}
+
+.containerMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+
+}
+.containerMain p{
+  color: #CF4647;
+  margin: 2%;
+}
+.containerMain h1 {
+    color: #CF4647;
+}
+
+.containerMain input {
+  margin: 2%;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+  outline: none;
+  padding: 1em;
+  transition: .4s ease-in-out;
+  width: 18rem;
+  height: 2rem;
+  text-align: center;
+}
+  .containerMain button {
+    background-color: #CF4647;
+    margin-top: 2em;
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color:  #F5D061;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .receitas div {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .receitas a {
+    display: block;
+    color: #CF4647;
+    padding: 5%;
+  }
+
+  .receitas h3{
+    padding-bottom: 10%;
+    color: #CF4647;
+  }
+
+  .receitasProntas {
+    display: grid;
+    padding-top: 5%;
+  }
+
+  .receitasProntas h1 {
+    color: #CF4647;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .btnReceitas {
+    border: none;
+
+  }
+
+  .btnReceitas img {
+    width: 50px;
+    cursor: pointer;
+  }
+  .btnicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .btnicon p {
+    padding-left: 2%;
+    color: #CF4647;
+    font-weight: bold;
+  }
+
